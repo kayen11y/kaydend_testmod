@@ -1,0 +1,71 @@
+[09:39:53] [main/INFO]: Setting user: Player318
+[09:39:55] [Client thread/INFO]: LWJGL Version: 2.9.1
+[09:40:00] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Testmod
+[09:40:01] [Sound Library Loader/INFO]: Sound engine started
+[09:40:05] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[09:40:06] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[09:40:07] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Testmod
+[09:40:08] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[09:40:08] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[09:40:08] [Sound Library Loader/INFO]: Sound engine started
+[09:40:39] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[09:40:39] [Server thread/INFO]: Generating keypair
+[09:40:40] [Server thread/INFO]: Converting map!
+[09:40:40] [Server thread/INFO]: Scanning folders...
+[09:40:40] [Server thread/INFO]: Total conversion count is 0
+[09:40:40] [Server thread/INFO]: Preparing start region for level 0
+[09:40:41] [Server thread/INFO]: Preparing spawn area: 8%
+[09:40:42] [Server thread/INFO]: Preparing spawn area: 22%
+[09:40:43] [Server thread/INFO]: Preparing spawn area: 40%
+[09:40:44] [Server thread/INFO]: Preparing spawn area: 59%
+[09:40:45] [Server thread/INFO]: Preparing spawn area: 81%
+[09:40:46] [Server thread/INFO]: Changing view distance to 11, from 10
+[09:40:47] [Server thread/INFO]: Player318[local:E:ca9d16db] logged in with entity id 283 at (-91.5, 71.0, 260.5)
+[09:40:47] [Server thread/INFO]: Player318 joined the game
+[09:40:50] [Client thread/INFO]: Warning: Clientside chunk ticking took 119 ms
+[09:40:51] [Client thread/INFO]: Warning: Clientside chunk ticking took 102 ms
+[09:40:51] [Client thread/INFO]: Warning: Clientside chunk ticking took 107 ms
+[09:40:57] [Server thread/INFO]: Saving and pausing game...
+[09:40:57] [Server thread/INFO]: Saving chunks for level 'TestWorldGenAndCopperStuff'/Overworld
+[09:40:57] [Server thread/INFO]: Saving chunks for level 'TestWorldGenAndCopperStuff'/Nether
+[09:40:57] [Server thread/INFO]: Saving chunks for level 'TestWorldGenAndCopperStuff'/The End
+[09:41:04] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Testmod
+[09:41:04] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[09:41:04] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[09:41:05] [Sound Library Loader/INFO]: Sound engine started
+[09:41:12] [Server thread/INFO]: Changing view distance to 16, from 11
+[09:41:15] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3102ms behind, skipping 62 tick(s)
+[09:41:15] [Server thread/INFO]: Saving and pausing game...
+[09:41:15] [Server thread/INFO]: Saving chunks for level 'TestWorldGenAndCopperStuff'/Overworld
+[09:41:17] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Testmod
+[09:41:17] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[09:41:17] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[09:41:18] [Sound Library Loader/INFO]: Sound engine started
+[09:41:19] [Server thread/INFO]: Saving chunks for level 'TestWorldGenAndCopperStuff'/Nether
+[09:41:19] [Server thread/INFO]: Saving chunks for level 'TestWorldGenAndCopperStuff'/The End
+[09:41:26] [Server thread/INFO]: Player318 has just earned the achievement [Taking Inventory]
+[09:41:26] [Client thread/INFO]: [CHAT] Player318 has just earned the achievement [Taking Inventory]
+[09:41:31] [Client thread/INFO]: Warning: Clientside chunk ticking took 225 ms
+[09:41:31] [Client thread/INFO]: Warning: Clientside chunk ticking took 144 ms
+[09:42:57] [Server thread/INFO]: [Player318: Given Night Vision (ID 16) * 0 to Player318 for 9999 seconds]
+[09:42:57] [Client thread/INFO]: [CHAT] Given Night Vision (ID 16) * 0 to Player318 for 9999 seconds
+[09:43:18] [Client thread/INFO]: Warning: Clientside chunk ticking took 165 ms
+[09:43:30] [Client thread/INFO]: [CHAT] Unknown command. Try /help for a list of commands
+[09:43:34] [Client thread/INFO]: [CHAT] /gamemode, /gamerule
+[09:43:36] [Server thread/INFO]: [Player318: Set own game mode to Creative Mode]
+[09:43:36] [Client thread/INFO]: [CHAT] Your game mode has been updated
+[09:43:39] [Server thread/INFO]: [Player318: Set own game mode to Survival Mode]
+[09:43:39] [Client thread/INFO]: [CHAT] Your game mode has been updated
+[09:44:07] [Server thread/INFO]: [Player318: Set own game mode to Creative Mode]
+[09:44:07] [Client thread/INFO]: [CHAT] Your game mode has been updated
+[09:44:11] [Server thread/INFO]: Saving and pausing game...
+[09:44:11] [Server thread/INFO]: Saving chunks for level 'TestWorldGenAndCopperStuff'/Overworld
+[09:44:11] [Server thread/INFO]: Saving chunks for level 'TestWorldGenAndCopperStuff'/Nether
+[09:44:11] [Server thread/INFO]: Saving chunks for level 'TestWorldGenAndCopperStuff'/The End
+[09:44:12] [Server thread/INFO]: Stopping server
+[09:44:12] [Server thread/INFO]: Saving players
+[09:44:12] [Server thread/INFO]: Saving worlds
+[09:44:12] [Server thread/INFO]: Saving chunks for level 'TestWorldGenAndCopperStuff'/Overworld
+[09:44:12] [Server thread/INFO]: Saving chunks for level 'TestWorldGenAndCopperStuff'/Nether
+[09:44:12] [Server thread/INFO]: Saving chunks for level 'TestWorldGenAndCopperStuff'/The End
+[09:44:14] [Client thread/INFO]: Stopping!

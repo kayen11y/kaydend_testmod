@@ -1,0 +1,15 @@
+package items;
+
+import net.minecraft.item.Item;
+
+public class modItems {
+	
+}
+	public final class moditems {
+		 
+		public static Item orangeItem;
+	
+	public static void init() {
+	}
+
+}

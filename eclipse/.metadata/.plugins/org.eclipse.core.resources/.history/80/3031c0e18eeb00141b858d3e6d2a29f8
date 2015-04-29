@@ -1,0 +1,40 @@
+package net.testmod.mod;
+
+import net.minecraft.item.Item;
+import net.testmod.mod.items.NCItems;
+import cpw.mods.fml.common.Mod;
+import cpw.mods.fml.common.Mod.EventHandler;
+import cpw.mods.fml.common.event.FMLInitializationEvent;
+import cpw.mods.fml.common.event.FMLPostInitializationEvent;
+import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import cpw.mods.fml.common.registry.GameRegistry;
+
+
+
+
+@Mod(modid = testMod.modid, version = testMod.version)
+public class testMod {
+
+	public static final String modid = "testMod";
+	public static final String version = "test v0.1";
+	
+	public static Item itemcopperIngot;
+	
+	@EventHandler
+	public void Preinit(FMLPreInitializationEvent preEvent){
+		
+		itemcopperIngot = new NCItems().setUnlocalizedName("CopperIngot");
+		GameRegistry.registerItem(itemcopperIngot, "CopperIngot");
+		
+	}
+	
+	@EventHandler
+	public void Init(FMLInitializationEvent Event){
+			
+	}
+	
+	@EventHandler
+	public void PostInit(FMLPostInitializationEvent postevent){
+		
+	}
+}

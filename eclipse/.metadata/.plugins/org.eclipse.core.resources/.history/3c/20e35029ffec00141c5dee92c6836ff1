@@ -1,0 +1,23 @@
+package com.kaydend.testmod.item;
+
+import com.kaydend.testmod.help.Reference;
+import com.sun.xml.internal.stream.Entity;
+
+import net.minecraft.item.ItemArmor;
+import net.minecraft.item.ItemStack;
+
+public class ItemCopperArmor extends ItemArmor {
+
+	public ItemCopperArmor(ArmorMaterial armorMaterial, int renderIndex,int armorType) {
+		super(armorMaterial, renderIndex, armorType);
+		// TODO Auto-generated constructor stub
+	}
+	
+
+	public String getArmorTexture(ItemStack stack, Entity entity, int slot, String type)
+	{
+		return Reference.modid + ":textures/armor" + "copper_layer" + "_" + (this.armorType == 2 ? "2" : "1") + ".png";
+	}
+	
+	
+}

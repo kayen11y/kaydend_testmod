@@ -1,0 +1,14 @@
+package net.testmod.mod;
+
+import cpw.mods.fml.common.Mod;
+
+
+
+
+@Mod(modid = testMod.modid, version = testMod.version)
+public class testMod {
+
+	public static final String modid = "testMod";
+	public static final String version = "test v0.1";
+	
+}

@@ -1,0 +1,7 @@
+package com.kaydend.testmod.item;
+
+import net.minecraft.item.ItemArmor;
+
+public class ItemCopperArmor extends ItemArmor {
+
+}

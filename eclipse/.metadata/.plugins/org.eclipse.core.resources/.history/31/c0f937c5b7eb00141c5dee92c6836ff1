@@ -1,0 +1,16 @@
+package com.kaydend.testmod.Items;
+
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.item.Item;
+
+public class testModItem extends Item {
+
+	
+	public testModItem(){
+		
+		super();
+		setCreativeTab(CreativeTabs.tabMaterials);
+		
+	}
+	
+}

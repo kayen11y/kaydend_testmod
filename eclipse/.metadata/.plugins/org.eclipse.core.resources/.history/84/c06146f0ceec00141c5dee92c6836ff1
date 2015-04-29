@@ -1,0 +1,7 @@
+package com.kaydend.testmod.item;
+
+import net.minecraft.item.Item;
+
+public class ItemCopperBoots extends Item {
+
+}

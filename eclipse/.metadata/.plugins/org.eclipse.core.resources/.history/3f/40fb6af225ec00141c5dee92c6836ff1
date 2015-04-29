@@ -1,0 +1,43 @@
+package com.kaydend.testmod;
+
+import net.minecraft.block.Block;
+
+import com.kaydend.testmod.help.Reference;
+import com.kaydend.testmod.help.RegisterHelper;
+
+import cpw.mods.fml.common.Mod;
+import cpw.mods.fml.common.event.FMLInitializationEvent;
+import cpw.mods.fml.common.event.FMLPostInitializationEvent;
+import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import cpw.mods.fml.common.registry.GameRegistry;
+
+@Mod(modid = Reference.modid, name = Reference.name, version = Reference.version)
+public class testmod 
+{
+	
+	    public static Block copper_Block;
+	    
+		@Mod.EventHandler
+		public void preInit(FMLPreInitializationEvent event)
+		{
+			
+			ModItems.init();
+			copper_Block = new com.kaydend.testmod.blocks.copper_Block();
+			GameRegistry.registerBlock(copper_Block, "copper_block ");
+
+			
+			
+		}
+		@Mod.EventHandler
+		public void init(FMLInitializationEvent event)
+		{
+			
+		}
+		@Mod.EventHandler
+		public void postInit(FMLPostInitializationEvent event)
+		{
+			
+		}
+			
+
+}

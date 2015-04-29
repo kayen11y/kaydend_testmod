@@ -1,0 +1,7 @@
+package com.kaydend.testmod;
+
+import net.minecraft.block.Block;
+
+public class blockcopper extends Block {
+
+}

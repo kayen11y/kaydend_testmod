@@ -1,0 +1,34 @@
+package com.kaydend.testmod;
+
+import com.kaydend.testmod.Items.testModItem;
+import com.kaydend.testmod.blocks.copper_Block;
+import com.kaydend.testmod.help.Reference;
+import com.kaydend.testmod.help.RegisterHelper;
+
+import net.minecraft.block.Block;
+import net.minecraft.item.Item;
+
+public class ModItems 
+{
+	public static Item copperIngot = new testModItem().setUnlocalizedName("copperIngot");
+	
+	public static void init()
+	{
+	
+    	RegisterHelper.registerItem(copperIngot);
+	}
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+

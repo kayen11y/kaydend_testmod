@@ -1,0 +1,12 @@
+package com.kaydend.testmod.item;
+
+import net.minecraft.item.ItemArmor;
+
+public class ItemCopperArmor extends ItemArmor {
+
+	public ItemCopperArmor(ArmorMaterial armorMaterial, int renderIndex,int armorType) {
+		super(armorMaterial, renderIndex, armorType);
+		// TODO Auto-generated constructor stub
+	}
+
+}

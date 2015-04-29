@@ -1,0 +1,23 @@
+package net.testmod.mod.items;
+
+import cpw.mods.fml.relauncher.Side;
+import cpw.mods.fml.relauncher.SideOnly;
+import net.minecraft.client.renderer.texture.IIconRegister;
+import net.minecraft.item.Item;
+import net.testmod.mod.testMod;
+
+public class NCItems extends Item {
+
+	public void NCitems(){
+		
+		this.setCreativeTab(getCreativeTab().tabMaterials);
+		
+	}
+	
+	@SideOnly(Side.CLIENT)
+	public void registerIcons(IIconRegister iconRegister) {
+		
+		this.itemIcon = iconRegister.registerIcon(testMod.modid + ":" + this.getUnlocalizedName().substring(5));
+	}
+	
+}
